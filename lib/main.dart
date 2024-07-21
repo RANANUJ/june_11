@@ -29,9 +29,11 @@ class MainApp extends StatelessWidget {
                       margin: const EdgeInsets.all(10),
                       padding: const EdgeInsets.all(10),
                       alignment: Alignment.center,
-                      child: const Column(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [Icon(Icons.home), Text("Home")],
+                      child: GestureDetector(
+                        child: const Column(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [Icon(Icons.home), Text("Home")],
+                        ),
                       ),
                     ),
                     Container(
